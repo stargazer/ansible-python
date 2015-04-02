@@ -1,0 +1,8 @@
+---
+packages:
+ - python
+ - python-dev
+ - python-pip
+ - python-virtualenv
+ - python-mysqldb
+ - libffi-dev

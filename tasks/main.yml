@@ -1,0 +1,9 @@
+---
+- name: apt-get update
+  apt: update-cache=yes
+  
+- name: Install dependencies
+  apt: pkg={{ item }}
+       state=installed
+  with_items: packages
+
